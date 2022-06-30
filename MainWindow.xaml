@@ -1,0 +1,14 @@
+﻿<Window x:Class="AlgoWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlgoWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" SizeChanged="Window_SizeChanged">
+    <Grid>
+        <WpfPlot x:Name="Display" Margin="10,10,10,170" Width="780" Height="254" VerticalAlignment="Top"/>
+        <Button x:Name="SortButton" Content="Sort" HorizontalAlignment="Right" Margin="0,0,45,35" VerticalAlignment="Bottom" Click="SortButton_Click"/>
+
+    </Grid>
+</Window>
